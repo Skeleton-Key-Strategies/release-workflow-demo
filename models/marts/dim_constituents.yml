@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_constituents
+    description: One row per constituent with giving rollups.
+    columns:
+      - name: contact_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
