@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_donations
+    description: One row per donation, standardized from the CRM source.
+    columns:
+      - name: donation_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null

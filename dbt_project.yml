@@ -1,0 +1,12 @@
+name: 'analytics_demo'
+version: '1.0.0'
+profile: 'analytics_demo'
+
+model-paths: ["models"]
+
+models:
+  analytics_demo:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
