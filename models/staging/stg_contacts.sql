@@ -11,3 +11,5 @@ renamed as (
 )
 
 select * from renamed
+
+-- updated_at added downstream
