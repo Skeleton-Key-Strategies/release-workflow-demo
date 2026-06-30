@@ -8,7 +8,8 @@ renamed as (
         donation_id,
         contact_id,
         amount,
-        donated_at
+        donated_at,
+        channel
     from source
 )
 
